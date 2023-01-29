@@ -6,8 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import '../Pages/HomePage.dart';
-
-
 import 'LoginScreen.dart';
 class Signup extends StatefulWidget {
   const Signup({Key? key}) : super(key: key);

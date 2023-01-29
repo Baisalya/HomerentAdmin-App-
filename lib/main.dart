@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:homerentpro/constraints/global_variables.dart';
 import 'package:homerentpro/pages/HomePage.dart';
 import 'package:homerentpro/pages/LoginScreen.dart';
 import 'package:homerentpro/pages/signup.dart';
@@ -10,16 +11,13 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Home Rent pro',
       theme: ThemeData(
-
-        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: GlobalVariables.backgroundColor
       ),
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
       routes:{
