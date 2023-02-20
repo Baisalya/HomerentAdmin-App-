@@ -37,7 +37,9 @@ class AuthService{
        onSuccess: (){
          showSnackBar(context,'Account Created!Login with credintial');
        });
-  } catch(e){}
+  } catch(e){
+      showSnackBar(context, e.toString());
+    }
 
   }
 }
